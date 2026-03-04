@@ -1,0 +1,449 @@
+#section1 {
+    background-image: url("IMAGES/abstract-geometric-white-background-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    height: 100%;
+    font-family: "Ubuntu", sans-serif;
+    /* Ubuntu for entire section1 */
+}
+
+/* SECTION1 - Ubuntu applies to all children */
+#section1 *,
+marquee {
+    font-family: "Ubuntu", sans-serif;
+}
+
+marquee {
+    color: brown;
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+/* ARROW CSS */
+.arrow {
+    margin: auto;
+    font-size: 150px;
+    color: black;
+    text-align: center;
+    position: relative;
+    animation: myarrow 1s infinite;
+    animation-fill-mode: both;
+    margin-top: -20px;
+}
+
+@keyframes myarrow {
+    from {
+        top: 10px;
+    }
+
+    to {
+        bottom: 12px;
+    }
+}
+
+/* HORIZONTAL LINE */
+hr {
+    width: 290px;
+    background: orangered;
+    height: 2px;
+    position: top;
+    float: left;
+}
+
+/* SECTION2 CSS */
+#section2 {
+    padding-top: 50px;
+    height: 100%;
+}
+
+/* SECTION2 paragraphs: Source Sans 3 */
+#section2 p {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.co {
+    margin-top: 5%;
+}
+
+.co1 {
+    margin-top: 10%;
+    padding-top: 10px;
+}
+
+#section3 {
+    padding-top: 10%;
+    height: 100%;
+}
+
+#section4 {
+    height: 100%;
+    background-color: rgb(255, 240, 240);
+}
+
+.jumbotron {
+    filter: drop-shadow(30%);
+}
+
+/* front page heading css */
+.s1 {
+    margin-top: 10%;
+    color: black;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.nav {
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 50px;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.navbar-brand span {
+    margin-right: 0.25rem;
+}
+
+.navbar-brand span:last-child {
+    margin-right: 0;
+}
+
+.hh,
+.el {
+    letter-spacing: 0.05em;
+}
+
+.slack {
+    color: red;
+}
+
+/* Align brand (and slack icon) flush with left edge of container */
+.navbar-header .navbar-brand {
+	padding-left: 0;
+}
+
+.hh {
+    color: orange;
+}
+
+.head {
+    font-size: 15px;
+}
+
+.el {
+    color: whitesmoke;
+}
+
+.font {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+h1 {
+    margin-top: 60px;
+}
+
+.carousel {
+    margin-top: 10%;
+}
+
+.carousel .item {
+    height: 300px;
+    background-color: rgb(190, 176, 169);
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+/* figcaption remains Cambria globally */
+figcaption {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+/* initiatives */
+.t1 {
+    filter: brightness(80%);
+}
+
+/* about content */
+#next {
+    color: black;
+    float: right;
+    line-height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.cause {
+    font-size: 30px;
+    color: black;
+}
+
+.alert {
+    border: 2px solid white;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.p {
+    background-color: rgb(194, 114, 114);
+    height: 5cm;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.p:hover {
+    filter: brightness(92%);
+    transform: scale(1.1);
+}
+
+.i {
+    background-color: rgb(62, 62, 161);
+    color: white;
+    height: 5cm;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.i:hover {
+    filter: brightness(90%);
+    transform: scale(1.1);
+}
+
+.y {
+    background-color: rgb(214, 74, 102);
+    height: 5cm;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.y:hover {
+    filter: brightness(90%);
+    transform: scale(1.1);
+}
+
+.u {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    height: 5cm;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.u:hover {
+    filter: brightness(90%);
+    transform: scale(1.1);
+}
+
+.rols {
+    border: 2px solid white;
+}
+
+.btn {
+    background-color: rgb(121, 115, 111);
+    border: 5px solid rgb(121, 115, 111);
+    border-radius: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.mission {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 25px;
+    padding: 30px;
+}
+
+/* initiatives */
+.ini {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* mission text bottom */
+.m1 {
+    margin-top: 10%;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.m2 {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+input {
+    width: 100%;
+}
+
+/* bottom registration side img */
+.bottomimg {
+    margin-top: 5%;
+}
+
+.co2 {
+    margin-top: 10%;
+}
+
+#section5 {
+    height: 100%;
+    margin-top: 10%;
+}
+
+.down {
+    margin-top: 10%;
+}
+
+.foot {
+    margin-bottom: 0%;
+}
+
+/* first img */
+.fimg {
+    filter: hue-rotate(80%);
+    max-width: 100%;
+    height: auto;
+}
+
+#section9 {
+    padding-top: 10%;
+    height: 100%;
+    text-align: center;
+    font-size: 60px;
+}
+
+ul.myUL {
+    display: inline-block;
+    text-align: left;
+    list-style-type: disc;
+}
+
+/* Make images responsive by default */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Section 3 images: center nicely above text */
+#section3 img {
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 140px;
+}
+
+/* About section flex layout (desktop/tablet) */
+.about-flex {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+/* Responsive tweaks for mobile screens */
+@media (max-width: 767px) {
+    /* Soften marquee and spacing on small screens */
+    marquee {
+        font-size: 20px;
+        margin-top: 10%;
+        padding: 0 10px;
+    }
+
+    .arrow {
+        font-size: 80px;
+        margin-top: 0;
+    }
+
+    /* Navbar brand + items more compact */
+    .font {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .navbar-nav > li > a {
+        font-size: 14px;
+        padding: 10px 8px;
+    }
+
+    /* Center and shorten horizontal rules */
+    hr {
+        width: 60%;
+        float: none;
+        margin: 10px auto;
+    }
+
+    /* Stack About image and text vertically */
+    .about-flex {
+        flex-direction: column;
+    }
+
+    #next {
+        float: none;
+        line-height: 30px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    /* Mission cards: full-width stack */
+    #section4 .rols {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+
+    .mission {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    /* Initiatives text slightly smaller */
+    .cause {
+        font-size: 22px;
+    }
+
+    .m1 {
+        font-size: 24px;
+        margin-top: 5%;
+    }
+
+    .m2 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    #section9 {
+        padding-top: 5%;
+        font-size: 32px;
+    }
+
+    /* Avoid heavy hover transforms on touch devices */
+    .p:hover,
+    .i:hover,
+    .y:hover,
+    .u:hover {
+        transform: none;
+        filter: none;
+    }
+}
